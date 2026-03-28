@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(pip install:*)",
-      "Bash(python -m pytest tests/test_display.py -v)"
+      "Bash(python -m pytest tests/test_display.py -v)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(node create_doc.js)",
+      "Bash(python /c/Users/alefa/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/df2ee467-c016-4198-b024-ddf95b8d2c4c/5b865ce5-4d4c-4ac7-89ab-7aadbd96ab97/skills/docx/scripts/office/validate.py \"A:\\\\WORKSPACE_CURSOR\\\\corsoai-generation\\\\meteo\\\\Presentazione_Progetto_Meteo.docx\")",
+      "Bash(python3 \"C:/Users/alefa/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/df2ee467-c016-4198-b024-ddf95b8d2c4c/5b865ce5-4d4c-4ac7-89ab-7aadbd96ab97/skills/docx/scripts/office/validate.py\" \"A:/WORKSPACE_CURSOR/corsoai-generation/meteo/Presentazione_Progetto_Meteo.docx\")",
+      "Bash(python3 -c \"import zipfile; z=zipfile.ZipFile\\(''A:/WORKSPACE_CURSOR/corsoai-generation/meteo/Presentazione_Progetto_Meteo.docx''\\); print\\(''OK, files:'', len\\(z.namelist\\(\\)\\)\\)\")",
+      "Bash(rm \"A:/WORKSPACE_CURSOR/corsoai-generation/meteo/create_doc.js\")",
+      "Bash(rm -rf \"A:/WORKSPACE_CURSOR/corsoai-generation/meteo/node_modules\" \"A:/WORKSPACE_CURSOR/corsoai-generation/meteo/package.json\" \"A:/WORKSPACE_CURSOR/corsoai-generation/meteo/package-lock.json\")"
     ]
   }
 }
